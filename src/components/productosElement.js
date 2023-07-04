@@ -25,7 +25,7 @@ export class ProductosELement extends LitElement {
             name: "Basic",
             description:["Navbar c/ 5 secciones", "SP", "Footer", "Actualización costo adicional"],
             price: "$2000",
-            bg: "bg-pink-400",
+            bg: "bg-yellow-600",
             tx:"text-pink-700",
 
         },
@@ -40,7 +40,7 @@ export class ProductosELement extends LitElement {
             "Actualización  costo adicional"
             ],
             price: "$4000",
-            bg: "bg-pink-300",
+            bg: "bg-green-600",
             tx:"text-pink-700",
 
         },
@@ -56,7 +56,7 @@ export class ProductosELement extends LitElement {
             "1 Actualización mensual sin costo dentro de los parámetros iniciales durante 6 meses"
             ],
             price: "$6000",
-            bg: "bg-pink-200",
+            bg: "bg-blue-600",
             tx:"text-pink-700",
             md:"span-2"
         },
@@ -65,16 +65,16 @@ export class ProductosELement extends LitElement {
 
     render() {
         return html`
-        <div class="bg-pink-700  h-max flex flex-wrap   justify-center">
+        <div class="bg-pink-200 py-20  min-h-screen flex flex-wrap   justify-center">
         ${this.products.map(prod=>html`
-            <div class=" ${prod.bg} max-w-[400px] mx-auto my-5 h-max text-left p-20 text-pink rounded-xl">
+            <div class="${prod.bg} text-white flex flex-col items-center max-w-[400px] mx-auto my-5 max-h-[800px] text-left px-20 py-10 text-pink rounded-xl">
                 <img class="w-20" src=${prod.img} alt="imagen de bronce"/> 
-                <h2 class="text-5xl font-bold my-12">${prod.name}</h2>
+                <h2 class="text-3xl font-bold my-6">${prod.name}</h2>
                 <ul class=" h-max">${prod.description.map(des=>html`
-                    <li class="list-disc list-item text-2xl ">${des}</li>`)}
+                    <li class="list-disc list-item text-xl ">${des}</li>`)}
                 </ul> 
-                <p class=" text-4xl text-center font-bold my-12 ">${prod.price} </p> 
-                <button class=" ${prod.tx} p-5 w-52 text-xl font-bold -translate-x-5 bg-yellow-200 rounded-full">Details</button>
+                <p class=" text-4xl text-center font-bold my-6 ">${prod.price} </p> 
+                <button class=" ${prod.tx} p-5 w-52 text-xl font-bold bg-yellow-200 rounded-full">Details</button>
             </div>` )}
         
         <div>
