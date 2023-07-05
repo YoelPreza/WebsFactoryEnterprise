@@ -32,15 +32,15 @@ export class MyElement extends LitElement {
 
      <inicio-element></inicio-element>
 
+     
+     <acerca-element></acerca-element>
+     
+     <servicios-element></servicios-element>
+     
+     <productos-element></productos-element>
+     
      <testimonios-element></testimonios-element>
-
-      <acerca-element></acerca-element>
-
-      <servicios-element></servicios-element>
-
-      <productos-element></productos-element>
-      
-      <contacto-element></contacto-element>
+    <contacto-element></contacto-element>
 
 
     `

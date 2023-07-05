@@ -15,11 +15,11 @@ export class TestimoniosELement extends LitElement {
     render() {
         return html`
         <div class="bg-blue-300 h-screen flex items-center justify-center" >
-            <div class="  h-96  w-[760px] flex flex-nowrap overflow-x-scroll"  >
-                <div class=" screen w-[2280px] flex"> 
+            <div class="screen scroll-smooth h-96  w-[760px] flex flex-nowrap overflow-x-hidden"  >
+                <div class="w-[2280px] flex justify-center scroll-smooth"> 
 
-                    ${testimonios.map(testimonio => html`
-                     <div class="testimonio bg-white flex w-[760px] h-full rounded-lg overflow-hidden"> 
+                    ${testimonios.map((testimonio,index) => html`
+                     <div class="testimonio scroll-smooth bg-white flex w-[760px] h-full rounded-lg overflow-hidden"> 
                          <div class="texto w-1/2 flex justify-center items-start text-left  flex-col"> 
                              <p class="text-xl text-left translate-x-10 z-10 font-serif">${testimonio.mensaje}</p> 
                              <p class="translate-x-10 mt-5 font-bold">${testimonio.name}</p> 
@@ -41,20 +41,13 @@ export class TestimoniosELement extends LitElement {
         `;
     }
 
-    rightScroll(e) {
-        e.target.parentNode.parentNode.parentNode.scrollLeft += 200;
-        // const screen = this.shadowRoot.querySelector(".screen");
-        // const nextDiv = screen.firstElementChild.nextElementSibling;
-      
-        // if (nextDiv) {
-        //   const scrollLeft = nextDiv.offsetLeft;
-        //   screen.scrollLeft = scrollLeft;
-        // }
-      }
+    rightScroll() {
+        console.log(this.shadowRoot.querySelector('.screen').scrollLeft += 760);
+    }
 
 leftScroll(){
     const screen = this.shadowRoot.querySelector(".screen");
-  const scrollAmount = 200; // Cantidad de desplazamiento en píxeles
+  const scrollAmount = 760; // Cantidad de desplazamiento en píxeles
   screen.scrollLeft -= scrollAmount;
 }
 }

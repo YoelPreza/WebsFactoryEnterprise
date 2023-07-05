@@ -11,10 +11,10 @@ export class AboutELement extends LitElement {
 
     render() {
         return html`
-            <main class="w-full  min-h-screen bg-white-200">
+            <main class="w-full  min-h-screen bg-[#B6A9FF]">
                 <div class="flex flex-col md:flex-row items-center h-screen">
-                    <img class="h-auto w-full md:w-1/2 mx-auto" src="src/images/shop-girl.png" />
-                    <p class="text-pink-700 text-center text-4xl w-full md:w-1/2 p-10"><span class="text-4xl">"</span>Nuestro trabajo sólo tiene sentido si es un testimonio fiel de su tiempo."</p>
+                    <img class="h-full w-full md:w-1/2 mx-auto" src="src/images/shop-girl.png" />
+                    <p class="text-white text-center text-4xl w-full md:w-1/2 p-10"><span class="text-4xl">"</span>Nuestro trabajo sólo tiene sentido si es un testimonio fiel de su tiempo."</p>
                 </div>
                 <div class="flex items-center min-h-screen w-full flex-col-reverse md:flex-row bg-pink-700">
                     <div class="
