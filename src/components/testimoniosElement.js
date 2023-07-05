@@ -42,7 +42,7 @@ export class TestimoniosELement extends LitElement {
     }
 
     rightScroll(e) {
-        e.target.parentNode.parentNode.parentNode.scrollLeft += 2000;
+        e.target.parentNode.parentNode.parentNode.scrollLeft += 200;
         // const screen = this.shadowRoot.querySelector(".screen");
         // const nextDiv = screen.firstElementChild.nextElementSibling;
       
