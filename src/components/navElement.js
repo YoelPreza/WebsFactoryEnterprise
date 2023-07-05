@@ -26,6 +26,8 @@ export class NavELement extends LitElement {
             { name:'Servicios'},
             { name:'Productos'},
             { name:'Contacto'},
+            { name:'Testimonios'},
+
         ]
     }
 
