@@ -1,14 +1,13 @@
 import { LitElement, css, html } from 'lit'
 import { TWStyles } from './twlit.js'
 
-
 import "./components/navElement.js"
 import "./components/servicesElement.js"
 import "./components/aboutElement.js"
 import './components/inicioElement.js'
 import './components/contactElement.js'
 import './components/productosElement.js'
-
+import './components/testimoniosElement.js'
 
 export class MyElement extends LitElement {
   static get properties() {
@@ -32,6 +31,8 @@ export class MyElement extends LitElement {
       </nav-element>
 
      <inicio-element></inicio-element>
+
+     <testimonios-element></testimonios-element>
 
       <acerca-element></acerca-element>
 
