@@ -33,7 +33,7 @@ export class ServicesELement extends LitElement {
         </div>
         
         <div class="flex my-10">
-          <a href="#" class="bg-red-500 p-4 rounded-full text-white capitalize font-bold">aprender mas</a>
+          <a href="#" class="bg-green-500 p-4 rounded-full text-white capitalize font-bold">aprender mas</a>
         </div>
 
       </main>
