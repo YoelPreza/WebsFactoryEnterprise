@@ -1944,20 +1944,16 @@ video {
     height: 24rem;
   }
 
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
   .xl\:w-\[2280px\] {
     width: 2280px;
   }
 
   .xl\:w-\[760px\] {
     width: 760px;
-  }
-
-  .xl\:w-1 {
-    width: 0.25rem;
-  }
-
-  .xl\:w-1\/2 {
-    width: 50%;
   }
 
   .xl\:flex-row {
