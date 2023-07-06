@@ -1,6 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import {TWStyles} from '../twlit'
 
+import './footerElement.js'
+
 export class ContactELement extends LitElement {
     static styles = [TWStyles,
         css`
@@ -13,7 +15,7 @@ export class ContactELement extends LitElement {
     render() {
         return html`
         
-            <form class="bg-[#B6A9FF] flex flex-col mx-auto justify-center p-5 h-screen" 
+            <form class="bg-[#B6A9FF] flex flex-col mx-auto justify-center p-5 h-[calc(100vh-200px)] md:h-[calc(100vh-124px)] lg:h-[calc(100vh-124px)]" 
                 action="https://formspree.io/f/mleyranl"
                 method="POST"
             >
@@ -36,7 +38,9 @@ export class ContactELement extends LitElement {
                     <button type="submit" class="bg-pink-500 text-white rounded-xl px-10 capitalize py-2 mx-7">enviar</button>
                 </div>
         
-            </form>`;
+            </form>
+            <footer-element></footer-element>
+            `;
     }
 }
 customElements.define('contacto-element', ContactELement);
