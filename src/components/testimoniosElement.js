@@ -15,40 +15,43 @@ export class TestimoniosELement extends LitElement {
     render() {
         return html`
         <div class=" bg-blue-300 h-screen flex items-center justify-center" >
-            <div class="screen scroll-smooth h-96  w-[760px] flex flex-nowrap overflow-x-hidden"  >
-                <div class="w-[2280px] flex justify-center scroll-smooth"> 
+            <div class="screen  border-red-400 xl:h-96 w-[365px] xl:w-[760px] xl:flex-row xl:flex-nowrap scroll-smooth flex overflow-y-hidden sm:overflow-x-hidden overflow-x-hidden
+                         ">
+
+                <div class="w-[1,095px] xl:w-[2280px] flex flex-row justify-center scroll-smooth"> 
 
                     ${testimonios.map((testimonio,index) => html`
-                     <div class="testimonio scroll-smooth bg-white flex w-[760px] h-full rounded-lg overflow-hidden"> 
-                         <div class="texto w-1/2 flex justify-center items-start text-left  flex-col"> 
-                             <p class="text-xl text-left translate-x-10 z-10 font-serif">${testimonio.mensaje}</p> 
+
+                     <div class="testimonio scroll-smooth bg-white flex flex-col xl:flex-row xl:h-96 w-[365px] xl:w-[760px] rounded-lg overflow-hidden"> 
+                         
+                        <div class="texto xl:w-1/2 sm:w-auto flex justify-center items-start text-left  flex-col"> 
+                             <p class="text-xl text-left z-10 w-11/12 mx-auto font-serif p-5">${testimonio.mensaje}</p> 
                              <p class="translate-x-10 mt-5 font-bold">${testimonio.name}</p> 
                              <p class="translate-x-10">${testimonio.pagina}</p>   
                              <span class="translate-x-10 text-2xl mt-5">${testimonio.rate}</span>
                          </div>
     
-                         <div class="h-full w-1/2 flex items-center justify-center  relative">
+                         <div class="h-full sm:w-auto flex items-center justify-center  relative">
                             <img class="h-full w-full" src=${testimonio.avatar} alt="avatar"/>
-                            <button @click=${this.leftScroll} class="absolute bottom-0 left-0 bg-blue-300 rounded-l-lg w-8 h-8">&#10094;</button>
-                            <button @click=${this.rightScroll} class="absolute bottom-0 left-5  bg-blue-300 rounded-r-lg w-8 h-8 ">&#10095;</button>
+                            <button @click=${this.leftScroll} class="absolute bottom-2  right-10 bg-blue-300 rounded-l-lg w-8 h-8">&#10094;</button>
+                            <button @click=${this.rightScroll} class="absolute bottom-2  right-1  bg-blue-300 rounded-r-lg w-8 h-8 ">&#10095;</button>
                          </div>
                      </div>`
                     )}
 
                 </div>
+
             </div>
         </div>
         `;
     }
 
     rightScroll() {
-     this.shadowRoot.querySelector('.screen').scrollLeft += 760;
+     this.shadowRoot.querySelector('.screen').scrollLeft += this.shadowRoot.querySelector('.screen').scrollWidth/3;
     }
 
     leftScroll() {
-        const screen = this.shadowRoot.querySelector(".screen");
-        const scrollAmount = 760; 
-        screen.scrollLeft -= scrollAmount;
+        this.shadowRoot.querySelector('.screen').scrollLeft -= this.shadowRoot.querySelector('.screen').scrollWidth/3;
     }
 }
 customElements.define('testimonios-element', TestimoniosELement);
