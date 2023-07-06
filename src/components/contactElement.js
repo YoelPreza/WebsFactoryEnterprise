@@ -13,7 +13,7 @@ export class ContactELement extends LitElement {
     render() {
         return html`
         
-            <form class="bg-blue-300 flex flex-col mx-auto justify-center p-5 h-screen" 
+            <form class="bg-[#B6A9FF] flex flex-col mx-auto justify-center p-5 h-screen" 
                 action="https://formspree.io/f/mleyranl"
                 method="POST"
             >

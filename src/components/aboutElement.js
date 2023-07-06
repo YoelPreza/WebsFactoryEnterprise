@@ -11,10 +11,14 @@ export class AboutELement extends LitElement {
 
     render() {
         return html`
-            <main class="w-full  min-h-screen bg-[#B6A9FF]">
+            <main class="w-full  min-h-screen bg-yellow-400">
                 <div class="flex flex-col md:flex-row items-center h-screen">
-                    <img class="h-full w-full md:w-1/2 mx-auto" src="src/images/shop-girl.png" />
-                    <p class="text-white text-center text-4xl w-full md:w-1/2 p-10"><span class="text-4xl">"</span>Nuestro trabajo sólo tiene sentido si es un testimonio fiel de su tiempo."</p>
+                    <div class="md:w-1/2 bg-white flex items-center h-full">
+                        <img class="  h-4/6 w-full md:w-full mx-auto" src="src/images/about.gif" />
+                    </div>
+                    <p class="text-black text-center text-4xl w-full md:w-1/2 p-10"><span class="text-4xl ">
+
+                    </span> Somos una empresa dedicada a ofrecer soluciones tecnológicas a bajo costo sin dejar de lado lo más importante.<br> ¡LA CALIDAD!</p>
                 </div>
                 <div class="flex items-center min-h-screen w-full flex-col-reverse md:flex-row bg-pink-700">
                     <div class="
@@ -24,13 +28,13 @@ export class AboutELement extends LitElement {
                         m-5
                         
                     ">
-                        <img class="h-[250px] rounded-full mx-auto md:absolute left-0 top-0"  src="src/images/shop-girl.png" />
-                        <img class="h-48 rounded-full mx-auto absolute left-1/2 -translate-y-1/2 -translate-x-1/2 top-1/2" src="src/images/shop-girl.png" />
-                        <img class="h-[250px] rounded-full mx-auto absolute right-0 bottom-0" src="src/images/shop-girl.png" />
+                        <img class="h-[250px] rounded-full mx-auto md:absolute left-0 top-0"  src="src/images/rapido.png" />
+                        <img class="h-48 rounded-full mx-auto absolute left-1/2 -translate-y-1/2 -translate-x-1/2 top-1/2" src="src/images/facil.png" />
+                        <img class="h-[250px] rounded-full mx-auto absolute right-0 bottom-0" src="src/images/economico.png" />
                     </div>
                     <div class="w-1/2 px-10 text-center ">
-                        <h3 class="text-5xl text-center uppercase text-yellow-200 font-serif my-5">The team</h1>
-                        <p class="text-yellow-200 text-center  text-2xl mx-auto   md:w-full">Nuestro trabajo sólo tiene sentido si es un testimonio fiel de su tiempo."</p><br>
+                        <!-- <h3 class="text-5xl text-center uppercase text-yellow-200 font-serif my-5">Nuestro Equipo</h1> -->
+                        <p class="text-yellow-200 text-center   font-sans text-2xl mx-auto   md:w-full"> Somos un grupo de desarrolladores Web con experiencia en marketing y diseño gráfico, preocupados por brindar la mejor experiencia en el mundo digital, con mas de 5 años en el mercado. <br> Si eres un emprendedor estas en el lugar adecuado</p><br>
                     </div>
                 </div>
             </main>

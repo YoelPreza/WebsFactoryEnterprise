@@ -785,6 +785,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -906,6 +911,14 @@ video {
   height: 100vh;
 }
 
+.h-5\\/6 {
+  height: 83.333333%;
+}
+
+.h-4\\/6 {
+  height: 66.666667%;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -914,8 +927,28 @@ video {
   max-height: 800px;
 }
 
+.max-h-\\[700px\\] {
+  max-height: 700px;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-\\[800px\\] {
+  min-height: 800px;
+}
+
+.min-h-\\[600px\\] {
+  min-height: 600px;
+}
+
+.min-h-\\[500px\\] {
+  min-height: 500px;
 }
 
 .w-1 {
@@ -1337,6 +1370,11 @@ video {
   background-color: rgb(157 23 77 / var(--tw-bg-opacity));
 }
 
+.bg-purple-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity));
+}
+
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
@@ -1435,9 +1473,19 @@ video {
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
 }
 
-.bg-purple-200 {
+.bg-red-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(233 213 255 / var(--tw-bg-opacity));
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .bg-none {
@@ -1575,6 +1623,16 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1851,6 +1909,21 @@ video {
 
   .lg\\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\\:h-full {
+    height: 100%;
+  }
+
+  .xl\\:w-full {
+    width: 100%;
+  }
+
+  .xl\\:bg-blue-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity));
   }
 } `
     

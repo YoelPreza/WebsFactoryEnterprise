@@ -14,7 +14,7 @@ export class TestimoniosELement extends LitElement {
 
     render() {
         return html`
-        <div class="bg-blue-300 h-screen flex items-center justify-center" >
+        <div class=" bg-blue-300 h-screen flex items-center justify-center" >
             <div class="screen scroll-smooth h-96  w-[760px] flex flex-nowrap overflow-x-hidden"  >
                 <div class="w-[2280px] flex justify-center scroll-smooth"> 
 
@@ -42,13 +42,13 @@ export class TestimoniosELement extends LitElement {
     }
 
     rightScroll() {
-        console.log(this.shadowRoot.querySelector('.screen').scrollLeft += 760);
+     this.shadowRoot.querySelector('.screen').scrollLeft += 760;
     }
 
-leftScroll(){
-    const screen = this.shadowRoot.querySelector(".screen");
-  const scrollAmount = 760; // Cantidad de desplazamiento en píxeles
-  screen.scrollLeft -= scrollAmount;
-}
+    leftScroll() {
+        const screen = this.shadowRoot.querySelector(".screen");
+        const scrollAmount = 760; 
+        screen.scrollLeft -= scrollAmount;
+    }
 }
 customElements.define('testimonios-element', TestimoniosELement);
