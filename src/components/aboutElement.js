@@ -40,4 +40,4 @@ export class AboutELement extends LitElement {
         `;
     }
 }
-customElements.define('acerca-element', AboutELement);
+customElements.define('nosotros-element', AboutELement);

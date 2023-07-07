@@ -22,7 +22,7 @@ export class NavELement extends LitElement {
         this.brandName = "Webs Factory";
         this.links = [
             { name:'Inicio' },
-            { name:'Acerca' },
+            { name:'Nosotros' },
             { name:'Servicios'},
             { name:'Productos'},
             { name:'Testimonios'},
