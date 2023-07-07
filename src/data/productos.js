@@ -5,7 +5,7 @@ export const products = [
      name: "Basic",
      description:["Navbar","5 Secciones  de contenido estatico", "Inicio, nosotros, servicios, clientes, contacto", "Footer", "Actualización costo adicional"],
      price: "$2000",
-     bg: "bg-yellow-600",
+     bg: "bg-[#e97950]",
      tx:"text-pink-700",
 
  },
@@ -20,7 +20,7 @@ export const products = [
      "Actualización  costo adicional"
      ],
      price: "$4000",
-     bg: "bg-green-600",
+     bg: "bg-[#9ec59f]",
      tx:"text-pink-700",
 
  },
@@ -36,7 +36,7 @@ export const products = [
      "1 Actualización mensual sin costo dentro de los parámetros iniciales durante 6 meses"
      ],
      price: "$6000",
-     bg: "bg-blue-600",
+     bg: "bg-[#4db8e1]",
      tx:"text-pink-700",
      md:"span-2"
  },

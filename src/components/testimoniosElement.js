@@ -14,7 +14,7 @@ export class TestimoniosELement extends LitElement {
 
     render() {
         return html`
-        <div class=" bg-blue-300 min-h-screen  py-10 flex items-center justify-center" >
+        <div class=" bg-[#4db8e1] min-h-screen  py-10 flex items-center justify-center" >
             <div class="screen  border-red-400 xl:h-96 w-[365px] xl:w-[760px] xl:flex-row xl:flex-nowrap scroll-smooth flex overflow-y-hidden sm:overflow-x-hidden overflow-x-hidden
                          ">
 
