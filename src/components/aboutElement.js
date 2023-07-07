@@ -30,33 +30,37 @@ return html`
 
 
     <div class="
-    flex items-center min-h-screen w-full h-screen border border-red-800 flex-col
+    flex items-center min-h-screen w-full h-screen  flex-col
     md:flex-row bg-[#F5F5F5]
     lg:flex lg:flex-row-reverse lg:w-full lg:items-center lg:justify-center ">
         <div class="
-                        border border-green-800 h-1/3 w-full flex flex-row justify-center items-center p-10
-                        md:w-1/2
+                     h-1/3 w-full flex flex-row justify-center items-end p-10
+                        md:w-1/2 md:h-screen md:relative 
                         lg:w-1/2 lg:h-[600px] lg:relative
                         
                     ">
             <img class="h-[100px] rounded-full mx-5
-            md:absolute
-            lg:h-[180px] lg:left-0 lg:top-0 lg:mx-auto lg:absolute  " 
+            
+            md:h-[150px] md:left-0 md:top-0  md:absolute md:my-20 
+            lg:h-[180px] lg:left-0 lg:top-0  lg:absolute  " 
             src="src/images/rapido.png" />
 
             <img class="h-[100px] rounded-full  
+            md:h-[180px] md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2 md:top-1/2 md:mx-auto md:absolute
             lg:h-[180px] lg:left-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:mx-auto lg:absolute
             "
                 src="src/images/facil.png" />
             <img class="h-[100px] rounded-full  mx-5
-            lg:h-[180px] lg:right-0 lg:bottom-0 lg:mx-auto lg:absolute
+            md:h-[180px] md:right-0 md:bottom-0  md:absolute md:my-20 
+            lg:h-[180px] lg:right-0 lg:bottom-0  lg:absolute
             " src="src/images/economico.png" />
         </div>
 
-        <div class="w-full text-center flex justify-center h-2/3 items-center border border-blue-800
-        lg:border lg:border-blue-800 lg:w-1/2 lg:h-[600px] lg:flex lg:items-center">
+        <div class="w-full text-center flex justify-center h-2/3 items-start 
+        md:w-1/2
+         lg:w-1/2 lg:h-[600px] lg:flex lg:items-center">
             <p class="text-slate-800 text-center  text-2xl  w-full  px-10 
-            md:w-full
+            
              "
             >   Somos un grupo de desarrolladores Web con experiencia en 
             marketing y diseño gráfico, preocupados por brindar la mejor

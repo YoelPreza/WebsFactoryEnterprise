@@ -40,11 +40,13 @@ md:flex-row ">
     </div>
 
     <div class="w-full h-1/2 py-5 flex bg-[#9ec59f] justify-center items-center
-    sm:border border-red-800 sm:w-1/2 sm:h-screen 
+     sm:w-1/2 sm:h-screen 
     lg:w-1/2 lg:h-screen lg:py-0
     ">
         <img class=" h-full w-screen
+        sm:w-auto sm:h-auto
         lg:h-full
+
         " src="./src/images/banner-hero.gif" />
     </div>
 
