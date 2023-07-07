@@ -14,7 +14,7 @@ export class TestimoniosELement extends LitElement {
 
     render() {
         return html`
-        <div class=" bg-blue-300 h-screen flex items-center justify-center" >
+        <div class=" bg-blue-300 min-h-screen  py-10 flex items-center justify-center" >
             <div class="screen  border-red-400 xl:h-96 w-[365px] xl:w-[760px] xl:flex-row xl:flex-nowrap scroll-smooth flex overflow-y-hidden sm:overflow-x-hidden overflow-x-hidden
                          ">
 
@@ -22,7 +22,9 @@ export class TestimoniosELement extends LitElement {
 
                     ${testimonios.map((testimonio,index) => html`
 
-                     <div class="testimonio scroll-smooth bg-white flex flex-col xl:flex-row xl:h-96 w-[365px] xl:w-[760px] rounded-lg overflow-hidden"> 
+                     <div class="testimonio scroll-smooth bg-white flex flex-col rounded-lg overflow-hidden  
+
+                     xl:flex-row xl:h-96 w-[365px] xl:w-[760px] "> 
                          
                         <div class="texto xl:w-1/2 sm:w-auto flex justify-center items-start text-left  flex-col"> 
                              <p class="text-xl text-left z-10 w-11/12 mx-auto font-serif p-5">${testimonio.mensaje}</p> 
