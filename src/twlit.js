@@ -1044,6 +1044,22 @@ video {
   max-width: 400px;
 }
 
+.max-w-\\[350px\\] {
+  max-width: 350px;
+}
+
+.max-w-\\[352px\\] {
+  max-width: 352px;
+}
+
+.max-w-\\[355px\\] {
+  max-width: 355px;
+}
+
+.max-w-\\[360px\\] {
+  max-width: 360px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -1909,6 +1925,10 @@ video {
     position: absolute;
   }
 
+  .md\\:flex {
+    display: flex;
+  }
+
   .md\\:w-1\\/2 {
     width: 50%;
   }
@@ -1946,20 +1966,16 @@ video {
     height: 24rem;
   }
 
+  .xl\\:w-1\\/2 {
+    width: 50%;
+  }
+
   .xl\\:w-\\[2280px\\] {
     width: 2280px;
   }
 
   .xl\\:w-\\[760px\\] {
     width: 760px;
-  }
-
-  .xl\\:w-1 {
-    width: 0.25rem;
-  }
-
-  .xl\\:w-1\\/2 {
-    width: 50%;
   }
 
   .xl\\:flex-row {
