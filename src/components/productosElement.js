@@ -26,7 +26,7 @@ export class ProductosELement extends LitElement {
         return html`
         <div class="bg-[#F5F5F5] py-10  min-h-screen flex flex-wrap md:flex-row flex-col-reverse items-center justify-center">
         ${products.map(prod=>html`
-            <div class="${prod.bg} text-white flex  flex-col items-center max-w-[360px] mx-auto my-3 max-h-[600px] text-left px-20 py-10 text-pink rounded-xl">
+            <div class="${prod.bg} text-white flex  flex-col items-center max-w-[350px] mx-auto my-3 max-h-[600px] text-left px-20 py-10 text-pink rounded-xl">
                 <img class="w-20" src=${prod.img} alt="imagen de bronce"/> 
                 <h2 class="text-2xl font-bold my-6">${prod.name}</h2>
                 <ul class=" text-xs h-max">${prod.description.map(des=>html`
