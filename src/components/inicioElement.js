@@ -22,7 +22,7 @@ sm:flex-row
 md:flex-row ">
 
     <div
-        class=" pt-20 px-10 w-full h-1/2 bg-[#9ec59f] flex flex-col justify-center items-center
+        class=" pt-20 px-10 w-full h-auto bg-[#9ec59f] flex flex-col justify-center items-center
         sm:w-1/2 sm:h-screen 
         lg:w-1/2 lg:h-screen
         ">
@@ -39,13 +39,13 @@ md:flex-row ">
         <button href="#" class=" hidden bg-black p-4 rounded-full text-white capitalize font-bold">explorar</button>
     </div>
 
-    <div class="w-full h-1/2 py-5 flex bg-[#9ec59f] justify-center items-center
+    <div class="w-full h-1/2 py-5 flex bg-[#B6A9FF] justify-center items-center
      sm:w-1/2 sm:h-screen 
     lg:w-1/2 lg:h-screen lg:py-0
     ">
-        <img class=" h-full w-screen
+        <img class=" h-auto w-full 
         sm:w-auto sm:h-auto
-        lg:h-full
+
 
         " src="./src/images/banner-hero.gif" />
     </div>

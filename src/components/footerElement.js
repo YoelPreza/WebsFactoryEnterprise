@@ -25,7 +25,7 @@ export class FooterELement extends LitElement {
                         <img class="h-10 mx-3 hover:animate-bounce cursor-pointer" src="src/assets/whatsapp.svg" />
                         <div class="flex">
                             <p class="mx-3">5532900759</p>
-                            <p class="mx-3">5532900759</p>
+                            <p class="mx-3">5540561429</p>
                         </div>
                     </div>
                 </div>

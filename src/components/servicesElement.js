@@ -19,11 +19,11 @@ return html`
 lg:flex-row
 ">
   ${servicios.map(servicio=>html`
-  <div class="grid grid-cols-1 p-10  w-[400px] h-full place-items-center text-center text-slate-800 text-xl font-semibold
+  <div class="grid grid-cols-1 p-0 w-full h-full place-items-center text-center text-slate-800 text-xl font-semibold
    md:w-[500px]
    lg:w-[500px] lg:h-[500px] lg:p-0" >
     <div class="flex flex-col items-center my-10">
-      <img class="mx-auto w-52" src=${servicio.img} alt="icon">
+      <img class=" w-52" src=${servicio.img} alt="icon">
       <h3 class="text-white text-3xl py-2">${servicio.name}</h3>
       <p class="w-3/4">${servicio.descripcion}</p>
     </div>
