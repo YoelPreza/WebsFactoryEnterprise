@@ -27,12 +27,12 @@ export class ContactELement extends LitElement {
                     </h2>
                     
                     <div class="flex flex-col sm:flex-row w-full justify-between m-2 p-2">
-                        <input class="rounded-xl ring ring-black  outline-none  m-3 p-2 sm:w-1/2" type="text" name="nombre" id="nombre" placeholder="Name">
-                        <input class="rounded-xl ring ring-black outline-none m-3 p-2 sm:w-1/2" type="text" name="asunto" id="asunto" placeholder="Subjet">
+                        <input class="rounded-xl ring ring-black  outline-none  m-3 p-2 sm:w-1/2" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <input class="rounded-xl ring ring-black outline-none m-3 p-2 sm:w-1/2" type="text" name="asunto" id="asunto" placeholder="Asunto">
                     </div>
                     
                     <div class="flex justify-center w-full m-2 p-2">
-                        <textarea class="rounded-xl w-full max-h-96 h-40 min-h-40 ring ring-black outline-none p-2 mx-3" name="mensaje" id="mensaje" rows="auto" placeholder="Write your message"></textarea>
+                        <textarea class="rounded-xl w-full max-h-96 h-40 min-h-40 ring ring-black outline-none p-2 mx-3" name="mensaje" id="mensaje" rows="auto" placeholder="Escribe tu mensaje"></textarea>
                     </div>
                     
                     <button type="submit" class="bg-black text-white rounded-xl px-10 capitalize py-2 mx-7">enviar</button>
