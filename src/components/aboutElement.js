@@ -16,7 +16,7 @@ return html`
         <div class="md:w-1/2 bg-white flex items-center h-full ">
             <img class="  h-auto w-auto  mx-auto
                         md:h-auto md:w-full
-                        " src="src/images/about.gif" />
+                        " src="images/about.gif" />
         </div>
         <p class="text-white text-center text-3xl w-full  p-5
         md:w-1/2
@@ -43,17 +43,17 @@ return html`
             
             md:h-[150px] md:left-0 md:top-0  md:absolute md:my-20 
             lg:h-[180px] lg:left-0 lg:top-0  lg:absolute  " 
-            src="src/images/rapido.png" />
+            src="images/rapido.png" />
 
             <img class="h-[100px] rounded-full  
             md:h-[180px] md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2 md:top-1/2 md:mx-auto md:absolute
             lg:h-[180px] lg:left-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:mx-auto lg:absolute
             "
-                src="src/images/facil.png" />
+                src="images/facil.png" />
             <img class="h-[100px] rounded-full  mx-0
             md:h-[180px] md:right-0 md:bottom-0  md:absolute md:my-20 
             lg:h-[180px] lg:right-0 lg:bottom-0  lg:absolute
-            " src="src/images/economico.png" />
+            " src="images/economico.png" />
         </div>
 
         <div class="w-full text-center flex justify-center h-2/3 items-start 
