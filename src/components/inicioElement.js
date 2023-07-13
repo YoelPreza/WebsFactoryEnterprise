@@ -47,7 +47,7 @@ md:flex-row ">
         sm:w-auto sm:h-auto
 
 
-        " src="./src/images/banner-hero.gif" />
+        " src="images/banner-hero.gif" />
     </div>
 
 </main>
