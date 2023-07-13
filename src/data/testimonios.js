@@ -2,7 +2,7 @@ export const testimonios = [
     {
         name: "Alberto Perez",
         pagina: "almaviajera.com",
-        mensaje: "Al principio crei que era una estafa, pero al contactarme con los encargados me di cuenta que son muy profesionales y tienen mucha paciencia",
+        mensaje: "Al principio no crei que fuera cierto, pero al contactarme con los encargados me di cuenta que son muy profesionales y tienen mucha paciencia",
         rate: "⭐⭐⭐⭐⭐",
         avatar: "src/images/testimonio-hombre.jpg"
     },

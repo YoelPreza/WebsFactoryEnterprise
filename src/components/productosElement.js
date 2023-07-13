@@ -24,16 +24,16 @@ export class ProductosELement extends LitElement {
 
     render() {
         return html`
-        <div class="bg-pink-200   min-h-screen flex flex-wrap items-center justify-center">
+        <div class="bg-[#F5F5F5] py-10  min-h-screen flex flex-wrap md:flex-row flex-col-reverse items-center justify-center">
         ${products.map(prod=>html`
-            <div class="${prod.bg} text-white flex flex-col items-center max-w-[400px] mx-auto my-3 max-h-[600px] text-left px-20 py-10 text-pink rounded-xl">
+            <div class="${prod.bg} text-white flex  flex-col items-center max-w-[350px] mx-auto my-3 max-h-[600px] text-left px-20 py-10 text-pink rounded-xl">
                 <img class="w-20" src=${prod.img} alt="imagen de bronce"/> 
                 <h2 class="text-2xl font-bold my-6">${prod.name}</h2>
                 <ul class=" text-xs h-max">${prod.description.map(des=>html`
                     <li class="list-disc list-item text-sm ">${des}</li>`)}
                 </ul> 
                 <p class=" text-4xl text-center font-bold my-6 ">${prod.price} </p> 
-                <button class=" ${prod.tx} p-5 w-52 text-sm font-bold bg-yellow-200 rounded-full">Details</button>
+                <!-- <button class=" ${prod.tx} p-5 w-52 text-sm font-bold bg-yellow-200 rounded-full">Details</button> -->
             </div>` )}
         
         <div>

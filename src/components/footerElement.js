@@ -12,7 +12,7 @@ export class FooterELement extends LitElement {
 
     render() {
         return html`
-            <footer class="bg-red-500 sm:h-max text-white text-xl relative bottom-0 py-3 flex flex-col md:flex-row">
+            <footer class="bg-[#bfa588] sm:h-max text-black text-xl relative bottom-0 py-3 flex flex-col md:flex-row">
                 
                 <div class="main-networks flex flex-col 
                     md:justify-between  items-center md:items-center md:w-1/2 md:flex-col
@@ -25,12 +25,12 @@ export class FooterELement extends LitElement {
                         <img class="h-10 mx-3 hover:animate-bounce cursor-pointer" src="src/assets/whatsapp.svg" />
                         <div class="flex">
                             <p class="mx-3">5532900759</p>
-                            <p class="mx-3">5532900759</p>
+                            <p class="mx-3">5540561429</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="secundary-networks w-full bg-red-500 flex flex-row p-5 items-center justify-center md:w-1/2 ">
+                <div class="secundary-networks w-full bg-[#bfa588] flex flex-row p-5 items-center justify-center md:w-1/2 ">
                     <img class="h-10 mx-5 hover:animate-bounce cursor-pointer" src="src/assets/facebook.svg" />
                     <img class="h-10 mx-5 hover:animate-bounce cursor-pointer" src="src/assets/instagram.svg" />
                     <img class="h-10 mx-5 hover:animate-bounce cursor-pointer" src="src/assets/tiktok.svg" />

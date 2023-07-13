@@ -33,7 +33,7 @@ export class MyElement extends LitElement {
      <inicio-element></inicio-element>
 
      
-     <acerca-element></acerca-element>
+     <nosotros-element></nosotros-element>
      
      <servicios-element></servicios-element>
      
