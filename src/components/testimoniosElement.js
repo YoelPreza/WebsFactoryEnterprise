@@ -15,7 +15,7 @@ export class TestimoniosELement extends LitElement {
     render() {
         return html`
         <div class=" bg-[#4db8e1] min-h-screen relative py-10 flex items-center justify-center " >
-            <div class="absolute left-10 md:left-1/2 translate-y-1/2 z-50">
+            <div class="absolute left-10 md:left-1/2 translate-y-1/2 z-40">
                 <button @click=${this.leftScroll} class="  bg-blue-300 rounded-l-lg w-8 h-8">&#10094;</button>
                 <button @click=${this.rightScroll} class="   bg-blue-300 rounded-r-lg w-8 h-8 ">&#10095;</button>
             </div>
@@ -27,7 +27,7 @@ export class TestimoniosELement extends LitElement {
 
                     ${testimonios.map((testimonio,index) => html`
 
-                    <div class="testimonio min-w-full h-[650px] md:h-96 md:items-center scroll-smooth bg-white flex flex-col rounded-lg overflow-hidden  
+                    <div class="testimonio min-w-full z-30 h-[650px] md:h-96 md:items-center scroll-smooth bg-white flex flex-col rounded-lg overflow-hidden  
                     relative
                     md:flex-row
                     lg:w-[760px]

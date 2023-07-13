@@ -19,7 +19,7 @@ export class NavELement extends LitElement {
 
     constructor(){
         super();
-        this.brandName = "Webs Factory";
+        this.brandName = "The Webs Factory";
         this.links = [
             { name:'Inicio' },
             { name:'Nosotros' },
@@ -44,7 +44,7 @@ export class NavELement extends LitElement {
 
     render() {
         return html`
-            <nav class="text-white bg-black rounded-lg fixed top-0 w-screen sm:w-11/12 left-1/2 -translate-x-1/2 z-50 flex justify-between items-center p-2 px-5">
+            <nav class="text-white bg-black  fixed top-0 w-screen sm:w-11/12 left-1/2 -translate-x-1/2 z-50 flex justify-between items-center p-2 px-5">
                 <ul class="flex items-center">
                     <img class="mx-3 border h-10 w-10 p-2 rounded-full" src="images/logo.png" />
                     <li class="sm:hidden md:flex md:text-white font-bold rounded-xl">${this.brandName}</li>
@@ -52,7 +52,7 @@ export class NavELement extends LitElement {
                 <ul class="links absolute top-full left-0    w-full rounded-lg text-center -translate-x-[120%] transition
                 sm:relative sm:-translate-x-0 sm:flex-row sm:flex sm:justify-end sm:w-max 
                 ">
-                    ${this.links.map(link => html`<li @click="${this.scrollThis}" class="p-2 text-white font-bold sm:bg-transparent bg-slate-800/60 hover:bg-pink-500 hover:text-white my-1 sm:my-0 rounded-lg cursor-pointer transition
+                    ${this.links.map(link => html`<li @click="${this.scrollThis}" class="p-2 text-white font-bold sm:bg-transparent bg-slate-800/60 hover:bg-[#BFA588] hover:text-white my-1 sm:my-0 rounded-lg cursor-pointer transition
                     ">${link.name}</li>`)}
                 </ul>
 

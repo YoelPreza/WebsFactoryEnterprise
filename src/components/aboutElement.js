@@ -30,8 +30,8 @@ return html`
 
 
     <div class="
-    flex items-center min-h-screen w-full h-screen  flex-col
-    md:flex-row bg-[#F5F5F5]
+    flex items-center min-h-screen w-full h-screen  flex-col bg-[#F5F5F5]
+    md:flex-row-reverse 
     lg:flex lg:flex-row-reverse lg:w-full lg:items-center lg:justify-center ">
         <div class="
                      h-1/3 w-full flex flex-row justify-center items-end p-10
@@ -59,7 +59,8 @@ return html`
         <div class="w-full text-center flex justify-center h-2/3 items-start 
         md:w-1/2
          lg:w-1/2 lg:h-[600px] lg:flex lg:items-center">
-            <p class="text-slate-800 text-justify  text-2xl  w-full sm:w-1/2  px-10 
+            <p class="text-slate-800 text-justify  text-2xl  w-full sm:w-1/2  px-10
+            md:w-full md:px-10 
             
              "
             >   Somos un grupo de desarrolladores Web con experiencia en 
